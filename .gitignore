@@ -11,9 +11,13 @@
 *.out
 *.app
 
-# Ignore VSCode settings
+# Common Linux binaries (like a.out, or compiled files with no extension)
+a.out
+*/a.out
+
+# VSCode settings
 .vscode/
 
-# Ignore temporary files
+# Temporary / log files
 *.log
 *.tmp
