@@ -1,0 +1,19 @@
+# Ignore compiled object files
+*.o
+
+# Ignore compiled dynamic libraries
+*.so
+*.dll
+*.dylib
+
+# Ignore compiled executables
+*.exe
+*.out
+*.app
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore temporary files
+*.log
+*.tmp
