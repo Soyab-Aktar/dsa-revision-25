@@ -9,7 +9,7 @@ void shifting(int arr[], int size, int k)
         temp[i] = arr[size - k + i];
     }
 
-    for (int i = size - 1; i >= 1; i--)
+    for (int i = size - 1; i >= k; i--)
     {
         arr[i] = arr[i - k];
     }
